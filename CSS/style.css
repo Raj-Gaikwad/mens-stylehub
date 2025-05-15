@@ -1,0 +1,200 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navbar-brand,
+.nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+/* .hero {
+  background: linear-gradient(135deg, #1c1c1c, #2b2b2b);
+  color: #fff;
+  padding: 100px 0;
+} */
+
+.hero {
+    background: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.7)),
+        url('https://images.unsplash.com/photo-1606813909227-1bbf1448670a?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #155ab6;
+}
+
+.category-btn {
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    /* Adjust to desired size */
+    object-fit: cover;
+    /* Prevent image distortion */
+    border-radius: 10px;
+    /* Smooth corners */
+    transition: transform 0.3s ease;
+    /* Zoom effect on hover */
+    object-fit: cover;
+}
+
+/* .card-img-top:hover {
+    transform: scale(1.05);
+} */
+
+header.about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47?auto=format&fit=crop&w=1500&q=80') center center/cover no-repeat;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+    text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.about-content {
+    padding: 60px 0;
+}
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.login-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #155ab6;
+}
+
+.signup-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn-primary {
+    background-color: #1a73e8;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #155ab6;
+}
+
+
+.product-img {
+    object-fit: cover;
+    border-radius: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.qty-btn {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+
+/* Example for smaller screens */
+@media (max-width: 576px) {
+  .table th, .table td {
+    font-size: 12px;
+  }
+
+  .btn {
+    font-size: 14px;
+  }
+}
+
+
+
+.custom-toast {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #28a745;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 9999;
+}
+
+.custom-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}

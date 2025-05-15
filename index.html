@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Men's Hub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Men's Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <header class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Unleash Your Style</h1>
+            <p class="lead fs-4">Men's premium shirts, t-shirts & jeans. Shop bold, wear proud.</p>
+            <a href="#shop" class="btn btn-primary btn-lg mt-3">Explore Now</a>
+        </div>
+    </header>
+
+
+    <!-- Categories Filter -->
+    <section id="categories" class="py-4 text-center bg-white">
+        <div class="container">
+            <h2 class="fw-bold mb-3">Shop by Category</h2>
+            <div class="d-flex justify-content-center gap-3 flex-wrap">
+                <button class="btn btn-outline-dark category-btn" onclick="filterProducts('all')">All</button>
+                <!-- <button class="btn btn-outline-dark category-btn" onclick="filterProducts('shirt')"
+                    data-category="shirts">Shirts</button> -->
+                <button class="btn btn-outline-dark category-btn" onclick="filterProducts('shirts')" data-category="shirts">Shirts</button>
+                <button class="btn btn-outline-dark category-btn" onclick="filterProducts('tshirts')"
+                    data-category="tshirts">T-Shirts</button>
+                <button class="btn btn-outline-dark category-btn" onclick="filterProducts('jeans')"
+                    data-category="jeans">Jeans</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Product Display Section -->
+    <section id="shop" class="py-5">
+        <div class="container">
+            <h2 class="text-center fw-bold mb-5">Our Products</h2>
+            <div class="row" id="product-list">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Testimonials -->
+    <section class="bg-dark text-white py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">What Men Are Saying</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <blockquote>
+                        <p>“Best jeans I’ve worn in years. Fit is on point.”</p>
+                        <footer class="blockquote-footer text-white-50">John D.</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 text-center">
+                    <blockquote>
+                        <p>“The t-shirts feel premium. Minimal yet bold.”</p>
+                        <footer class="blockquote-footer text-white-50">Alex M.</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-4 text-center">
+                    <blockquote>
+                        <p>“Wore the shirt to a meeting. Compliments all day.”</p>
+                        <footer class="blockquote-footer text-white-50">Raj G.</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-white py-4">
+        <p class="mb-0">&copy; 2025 Men's Hub. Designed for Men of Style.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/script.js"></script>
+
+</body>
+
+</html>
