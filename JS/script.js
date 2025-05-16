@@ -38,51 +38,51 @@ const productData = {
         {
             name: "Allen Solly Classic Stripe Shirt",
             price: "₹499",
-            img: "../Images/Shirts/Allen-Solly-Men.jpg"
+            img: "./Images/Shirts/Allen-Solly-Men.jpg"
         },
         {
             name: "DEELMO Solid Satin Shirt",
             price: "₹459",
-            img: "../Images/Shirts/DEELMO-Men.jpg"
+            img: "./Images/Shirts/DEELMO-Men.jpg"
         },
         {
             name: "Dennis Lingo Checkered Shirt",
             price: "₹699",
-            img: "../Images/Shirts/Dennis-Lingo-Men.jpg"
+            img: "./Images/Shirts/Dennis-Lingo-Men.jpg"
         }
     ],
     tshirts: [
         {
             name: "BULLMER Oversized Tee",
             price: "₹299",
-            img: "../Images/T-shirts/BULLMER-Trendy.jpg"
+            img: "./Images/T-shirts/BULLMER-Trendy.jpg"
         },
         {
             name: "LEOTUDE Cottonblend Tee",
             price: "₹349",
-            img: "../Images/T-shirts/LEOTUDE-Men.jpg"
+            img: "./Images/T-shirts/LEOTUDE-Men.jpg"
         },
         {
             name: "Veirdo Baggy Printed Tee",
             price: "₹199",
-            img: "../Images/T-shirts/Veirdo-Oversized-Baggy.jpg"
+            img: "./Images/T-shirts/Veirdo-Oversized-Baggy.jpg"
         }
     ],
     jeans: [
         {
             name: "JVX Cargo Jeans",
             price: "₹799",
-            img: "../Images/Jeans/JVX-Men-Jeans.jpg"
+            img: "./Images/Jeans/JVX-Men-Jeans.jpg"
         },
         {
             name: "Thomas Scott Light Fade Jeans",
             price: "₹599",
-            img: "../Images/Jeans/Thomas-Scott-Men.jpg"
+            img: "./Images/Jeans/Thomas-Scott-Men.jpg"
         },
         {
             name: "TAGAS Relaxed Denim",
             price: "₹1299",
-            img: "../Images/Jeans/TAGAS-Men-Relaxed-FIT-Denim-Jeans.jpg"
+            img: "./Images/Jeans/TAGAS-Men-Relaxed-FIT-Denim-Jeans.jpg"
         }
     ]
 };
